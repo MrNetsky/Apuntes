@@ -33,8 +33,19 @@ Una vez creado el repositorio local, en la terminal deberemos escribir lo siguie
 ```bash
 git remote add origin [URL_GITHUB]
 ```
-
-
+Antes de subir nuestros archivos la nube, sugiero que renombres la rama 'master' a 'main'. Lo haremos de la siguiente manera:
+```bash
+git branch -M [NOMBRE]
+```
+Esto es porque GitHub usualmente trabaja con 'main'. Mientras que el '-m' renombra, mientras que '-M' fuerza dicho renombre, sin importar si hay otra rama con el mismo nombre, aunque como recién arrancamos, no hay otra rama con el mismo nombre.
+Ahora sí estamos listos para subir nuestros cambios y lo haremos de la siguiente manera:
+```bash
+git push -u origin main
+```
+El '-u' lo usaremos únicamente ahora, para que cada vez que subamos un cambio lo haga en la rama main. Para los posteriores pusheos de contenido, escribiremos:
+```bash
+git push origin main
+```
 
 [[Introducción a git]]
 

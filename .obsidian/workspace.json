@@ -6,7 +6,7 @@
       {
         "id": "8aa8ddf57017b69b",
         "type": "tabs",
-        "dimension": 73.03299492385787,
+        "dimension": 74.49238578680203,
         "children": [
           {
             "id": "0d674b5985fabf26",
@@ -27,7 +27,7 @@
       {
         "id": "a6d011c366c85fe4",
         "type": "tabs",
-        "dimension": 26.96700507614213,
+        "dimension": 25.50761421319797,
         "children": [
           {
             "id": "6f4ca7273babd22e",
@@ -112,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "git/Primer commit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes"
+              "title": "Enlaces entrantes de Primer commit"
             }
           },
           {
@@ -200,9 +201,10 @@
   },
   "active": "0d674b5985fabf26",
   "lastOpenFiles": [
+    "git/Configuraciones adicionales.md",
+    "git/Primer commit.md",
     "git/Ramas.md",
     "git/Introducción a git.md",
-    "git/Primer commit.md",
     "git/Configuración inicial.md",
     "git/img/1er-repo-remoto.png",
     "Fullstack/Backend",
