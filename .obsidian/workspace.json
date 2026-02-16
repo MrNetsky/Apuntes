@@ -6,7 +6,7 @@
       {
         "id": "8aa8ddf57017b69b",
         "type": "tabs",
-        "dimension": 74.49238578680203,
+        "dimension": 66.37055837563452,
         "children": [
           {
             "id": "0d674b5985fabf26",
@@ -27,7 +27,7 @@
       {
         "id": "a6d011c366c85fe4",
         "type": "tabs",
-        "dimension": 25.50761421319797,
+        "dimension": 33.629441624365484,
         "children": [
           {
             "id": "6f4ca7273babd22e",
@@ -96,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "09e8f86a39d68e7b",
@@ -112,7 +113,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git/Primer commit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de Primer commit"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -199,13 +199,19 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "0d674b5985fabf26",
+  "active": "6f4ca7273babd22e",
   "lastOpenFiles": [
-    "git/Configuraciones adicionales.md",
+    "Python/Introducción.md",
     "git/Primer commit.md",
+    "Fullstack/Frontend/SQL.md",
+    "Fullstack/Backend/HTML.md",
+    "git/Rectificación y gestión de errores.md",
+    "git/Historial.md",
+    "git/Repositorios remotos.md",
+    "git/Configuración inicial.md",
+    "git/Configuraciones adicionales.md",
     "git/Ramas.md",
     "git/Introducción a git.md",
-    "git/Configuración inicial.md",
     "git/img/1er-repo-remoto.png",
     "Fullstack/Backend",
     "Fullstack/Frontend",
