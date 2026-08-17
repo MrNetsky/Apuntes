@@ -1,0 +1,1 @@
+Todo aquello que podemos describir a través de características.

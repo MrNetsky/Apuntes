@@ -1,0 +1,1 @@
+Conjunto de [[Dato]]s suficientemente organizados y entendibles.

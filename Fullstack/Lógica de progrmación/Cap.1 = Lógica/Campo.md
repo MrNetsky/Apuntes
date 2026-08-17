@@ -1,0 +1,1 @@
+Nombre que se le coloca a un dato para identificar el atributo que está describiendo. [[Registro]].
