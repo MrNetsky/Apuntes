@@ -1,0 +1,99 @@
+Para saber el tipo de dato que posee una variable lo que se debe hacer es usar la función type(), pero para que la consola o el programa lo muestre necesariamente deberemos imprimirlo, para ello la función print().
+```python
+x = 2.04
+print(type(x)) # <class 'float'>
+```
+# Tipos básicos
+
+## Números
+
+Poseen diferentes representaciones, dependiendo del campo del número, extensión o precisión que se desee del mismo. Son los siguientes:
+- **Enteros (int):** Números positivos, negativos y el cero
+- **Reales (float):** Números con coma, aunque también admiten números representados con notación científica.
+- **Complejos (complex):** Números que incluyen la parte imaginaria.
+```python
+x = 1       #int
+y = 1.5     #float
+z = 3 + 4j #complex
+```
+## Cadenas
+O strings (str), es texto encerrado entre comillas simples, dobles o entre triples comillas simples o dobles.
+```python
+a = 'Esto es un string'
+b = "Esto es un string"
+# En las siguientes dos formas los saltos de línea pasan a formar parte de la cadena, evitándonos el tener que escribir una secuencia de escape como \n.
+c = '''Esto es
+un string'''
+d = """Esto es 
+un string"""
+```
+## Booleanos
+
+Indican valores de verdad, los cuales son dos: `True` o `False`.
+
+En determinados contextos, otros valores pueden ser evaluados como verdaderos o falsos. Por ejemplo, en el caso de los enteros, `0` se considera falso y cualquier entero distinto de `0` se considera verdadero, aunque comúnmente se utiliza `1` para este fin.
+```python
+bool(0)  # False
+bool(1)  # True
+bool(5)  # True
+
+type(1)    #int
+type(True) #bool
+```
+## Operadores
+### Aritméticos
+```python
+x = 4
+y = 3
+
+x + y   # = 7    Suma.
+x - y   # = 1    Resta.
+x * y   # = 12   Multiplicación.
+x ** y  # = 64   Potencia.
+x / y   # = 1.33 División
+x // y  # = 1    División entera.
+x % y   # = 1    Módulo o resto.
+```
+### Operadores bitwise
+Trabajan directamente sobre la representación binaria de los operandos
+### Operadores relacionales
+```python
+x = 4
+y = 3
+
+x == y # False, porque NO son iguales.
+x != y # True, porque son distintos.
+x < y  # False, porque 4 NO es menor que 3.
+x > y  # True, porque 4 es mayor que 3.
+x <= y  # False, porque 4 NO es menor ni igual que 3.
+x >= y  # True, porque 4 no es igual que 3, pero sí es mayor.
+```
+### Operadores lógicos
+```python
+x = 4
+y = 3
+
+type(x) == int and type(y) == int #True, porque ambas variables son enteras.
+type(x) == int or type(y) == int  #True, porque al menos uno de los dos es un entero.
+not True # False, porque es su valor opuesto.
+```
+# Colecciones
+
+## Listas
+Es un tipo de colección de datos ordenados, razón por la cual, se puede iterar sus valores, teniendo en cuenta que el primer elemento tiene el índice `0`. Si el índice es negativo comenzará a contar desde el último y hacia la izquierda.
+Una lista puede contener elementos de distintos tipos, incluso otras listas.
+```python
+x = [1,'Pablo',[True, 2.74]]
+print(x[0])      #1
+print(x[2][1])   #2.74
+print(x[-1][-1]) #2.74
+```
+También permite *slicing*, el cual es un procedimiento donde se agregan parámetros que permiten marcar el inicio:fin:salto, donde los números, puede ser cualquier entero. Ningún parámetro es obligatorio indicarlo porque se tomará el valor por defecto para c/u.
+```python
+x = [1,2,3,4,5,6,7,8,9]
+print(x[1:])    #[2,3,4,5,6,7,8,9]
+print(x[:7])    #[1,2,3,4,5,6,7]
+print(x[::2])   #[1,3,5,7,9]
+print(x[1:7])   #[2,3,4,5,6,7]
+print(x[1:7:2]) #[2,4,6]
+```
