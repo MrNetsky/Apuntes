@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Python/3. Control de flujo.md",
+                "file": "Python/Ejercitación.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. Control de flujo"
+              "title": "Ejercitación"
             }
           }
         ]
@@ -186,9 +186,10 @@
   "active": "1112226e8785b7a0",
   "lastOpenFiles": [
     "Python/1. Introducción.md",
+    "Python/Ejercitación.md",
+    "git/Configuración inicial.md",
     "Python/3. Control de flujo.md",
     "Python/2. Tipos de datos.md",
-    "git/Configuración inicial.md",
     "git/Introducción a git.md",
     "git/Configuraciones adicionales.md",
     "git/Historial.md",
@@ -215,7 +216,6 @@
     "Fullstack/Lógica de progrmación/Cap.1 = Lógica",
     "Fullstack/Lógica de progrmación",
     "Fullstack/Frontend/SQL.md",
-    "Fullstack/Backend/HTML.md",
     "git/img/1er-repo-remoto.png",
     "Fullstack/Backend",
     "Fullstack/Frontend",
